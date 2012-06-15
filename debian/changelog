@@ -1,3 +1,9 @@
+clutter (0.8.2-0maemo67+0m5-thumb1) unstable; urgency=low
+
+  * add kernel errata dependency
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Fri, 15 Jun 2012 17:04:51 +0300
+
 clutter (0.8.2-0maemo67+0m5-thumb0) unstable; urgency=low
 
   * Thumb2 compiled

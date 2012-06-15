@@ -8,7 +8,7 @@ Standards-Version: 3.7.2
 Package: libclutter-0.8-0
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libgles2-sgx-img [armel] | libgles2 [armel], libgl1 [!armel]
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgles2-sgx-img [armel] | libgles2 [armel], libgl1 [!armel], kernel-feature-errata-430973-workaround
 Description: Open GL based interactive canvas library
  Clutter is an Open GL based interactive canvas library, designed for creating
  fast, mainly 2D single window applications such as media box UIs,
