@@ -13,7 +13,7 @@ endif
 
 DEB_DH_STRIP_ARGS := --dbg-package=libclutter-0.8-0
 
-CFLAGS := -DG_DEBUG_DISABLE -Winline
+CFLAGS := -DG_DEBUG_DISABLE -Winline -mthumb
 
 makebuilddir/libclutter-0.8-0::
 	[ -f configure ] || autoreconf -f -i
