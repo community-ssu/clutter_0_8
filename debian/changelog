@@ -1,3 +1,9 @@
+clutter (0.8.2-0maemo67+0m5+thumb2) unstable; urgency=low
+
+  * use GCC 4.7.2
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 15 Sep 2012 09:36:12 +0300
+
 clutter (0.8.2-0maemo67+0m5-thumb1) unstable; urgency=low
 
   * add kernel errata dependency
