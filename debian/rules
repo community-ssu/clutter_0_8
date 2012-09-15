@@ -13,8 +13,7 @@ endif
 
 DEB_DH_STRIP_ARGS := --dbg-package=libclutter-0.8-0
 
-CFLAGS := -DG_DEBUG_DISABLE -Winline -ftree-vectorize -flto -fgraphite -mfpu=neon
-LDFLAGS := -flto
+CFLAGS := -DG_DEBUG_DISABLE -Winline -ftree-vectorize -fgraphite -mfpu=neon
 
 ifneq (,$(findstring thumb,$(DEB_BUILD_OPTIONS)))
   CFLAGS += -mthumb
